@@ -7,3 +7,77 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:13:06 --> Invalid file: "template/pie.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/pie.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('template/pie', [], true)
+ 3 APPPATH\Controllers\Libros.php(13): view('template/pie')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:13:19 --> Invalid file: "template/pie.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/pie.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('template/pie', [], true)
+ 3 APPPATH\Controllers\Libros.php(13): view('template/pie')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:14:32 --> Invalid file: "template/pie.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/pie.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('template/pie', [], true)
+ 3 APPPATH\Controllers\Libros.php(13): view('template/pie')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:14:34 --> Invalid file: "template/pie.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/pie.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('template/pie', [], true)
+ 3 APPPATH\Controllers\Libros.php(13): view('template/pie')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:14:37 --> Invalid file: "template/pie.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/pie.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('template/pie', [], true)
+ 3 APPPATH\Controllers\Libros.php(13): view('template/pie')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:16:09 --> Invalid file: "template/pie.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/pie.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('template/pie', [], true)
+ 3 APPPATH\Controllers\Libros.php(13): view('template/pie')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:25:10 --> Use of undefined constant cabecera - assumed 'cabecera' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\libros\crear.php on line 1.
+ 1 APPPATH\Views\libros\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant cabecera - assumed \'cabecera\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\libros\\crear.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('libros/crear', [], true)
+ 5 APPPATH\Controllers\Libros.php(22): view('libros/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 02:39:03 --> syntax error, unexpected '/'
+in APPPATH\Views\libros\crear.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('libros/crear', [], true)
+ 3 APPPATH\Controllers\Libros.php(22): view('libros/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
